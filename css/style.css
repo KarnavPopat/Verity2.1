@@ -8735,6 +8735,48 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+.site-blocks-cover {
+  background-size: cover;
+  background-color: rgba(239, 94, 52, 1);
+  color: rgba(0, 0, 0, 0.8); }
+.site-blocks-cover:before {
+  color: rgba(0, 0, 0, 0.8); }
+  .site-blocks-cover.overlay {
+    position: relative; }
+    .site-blocks-cover.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0; }
+  .site-blocks-cover, .site-blocks-cover .row {
+    min-height: 600px;
+    height: calc(100vh); }
+  .site-blocks-cover.inner-page, .site-blocks-cover.inner-page .row {
+    min-height: 600px;
+    height: calc(40vh); }
+  .site-blocks-cover .sub-text {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: .2em; }
+  .site-blocks-cover h1 {
+    color: #fff;
+    font-size: 3rem; }
+    @media (min-width: 768px) {
+      .site-blocks-cover h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1.2; } }
+  .site-blocks-cover p {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5; }
+  .site-blocks-cover .intro-text {
+    font-size: 16px;
+    line-height: 1.5; }
+
 .site-footer {
   padding: 2em 0;
   background-size: cover;
