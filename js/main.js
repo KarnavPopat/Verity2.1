@@ -189,7 +189,7 @@
     });
 
   $(function() {
-      	$("#pop-art").load("pop-art.html"); 
+      	$("#popart").load("popart.html"); 
     });
 
   $(function() {
