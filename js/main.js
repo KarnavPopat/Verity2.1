@@ -192,9 +192,7 @@
       	$("#pop-art").load("pop-art.html"); 
     });
 
-  $(function() {
-      	$("#footer").load("footer.html"); 
-    });
+  
 
 
 })(jQuery);
