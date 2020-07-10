@@ -184,11 +184,11 @@
     fixedContentPos: false
   });
 
-  /* $(function() {
+  $(function() {
       	$("#sidebar").load("sidebar.html"); 
     });
 
-  $(function() {
+  /* $(function() {
       	$("#pop-art").load("pop-art.html"); 
     }); */
 
