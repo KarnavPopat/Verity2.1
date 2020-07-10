@@ -188,9 +188,9 @@
       	$("#sidebar").load("sidebar.html"); 
     });
 
-  /* $(function() {
+  $(function() {
       	$("#pop-art").load("pop-art.html"); 
-    }); */
+    });
 
   $(function() {
       	$("#footer").load("footer.html"); 
