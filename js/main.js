@@ -3,18 +3,6 @@
  	easing: 'slide'
  });
 
- $(function() {
-      	$("#sidebar").load("sidebar.html"); 
-    });
-
-  $(function() {
-      	$("#popart").load("popart.html"); 
-    });
-
-  $(function() {
-      	$("#footer").load("footer.html"); 
-    });
-
 (function($) {
 
 	"use strict";
@@ -196,5 +184,18 @@
     fixedContentPos: false
   });
 
+  $(function() {
+      	$("#sidebar").load("sidebar.html"); 
+    });
+
+  $(function() {
+      	$("#popart").load("popart.html"); 
+    });
+
+  $(function() {
+      	$("#footer").load("footer.html"); 
+    });
+
 
 })(jQuery);
+
