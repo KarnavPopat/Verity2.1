@@ -196,24 +196,7 @@
       	$("#footer").load("footer.html"); 
     });
 
-  var windowScrolled = function() {
-
-
-		$(window).scroll(function() {
-
-			var $w = $(this), st = $w.scrollTop(), navbar = $('.js-site-navbar') ;
-
-			if ( st > 100 ) {
-				navbar.addClass('scrolled');
-			} else {
-				navbar.removeClass('scrolled');
-			}
-			
-		})
-
-	}
-	windowScrolled();
-
+	
 	$(".scroller").click(function() {
     $('html,body').animate({
         scrollTop: $(".scrollered").offset().top},
