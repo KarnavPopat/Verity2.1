@@ -8735,14 +8735,14 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-.site-footer {
+.side-footer {
   padding: 2em 0;
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
   color: rgba(205, 205, 205, 0.5);
   position: relative; }
-  .site-footer:before {
+  .side-footer:before {
     position: absolute;
     content: "";
     background: rgba(0, 0, 0, 0);
@@ -8750,13 +8750,13 @@ textarea.form-control {
     left: 0;
     right: 0;
     bottom: 0; }
-  .site-footer .footer-heading {
+  .side-footer .footer-heading {
     font-size: 20px; }
-  .site-footer a {
+  .side-footer a {
     color: rgba(255, 255, 255, 0.3); }
-    .site-footer a:hover {
+    .side-footer a:hover {
       color: #fff; }
-  .site-footer ul li {
+  .side-footer ul li {
     margin-bottom: 10px; }
 
 .designer-link a {
