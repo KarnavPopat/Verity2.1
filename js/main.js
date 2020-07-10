@@ -184,15 +184,17 @@
     fixedContentPos: false
   });
 
-  $(function() {
+  /* $(function() {
       	$("#sidebar").load("sidebar.html"); 
     });
 
   $(function() {
       	$("#pop-art").load("pop-art.html"); 
-    });
+    }); */
 
-  
+  $(function() {
+      	$("#footer").load("footer.html"); 
+    });
 
 
 })(jQuery);
