@@ -184,6 +184,10 @@
     fixedContentPos: false
   });
 
+  $(function() {
+      	$("#sidebar").load("sidebar.html"); 
+    });
+
 
 
 
