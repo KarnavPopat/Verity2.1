@@ -7488,7 +7488,7 @@ h1, h2, h3, h4, h5,
           -ms-transform: scaleX(1);
           -o-transform: scaleX(1);
           transform: scaleX(1); }
-  #site-aside .site-footer {
+  #site-aside .side-footer {
     position: absolute;
     bottom: 40px;
     left: 0;
@@ -7497,25 +7497,25 @@ h1, h2, h3, h4, h5,
     font-size: 14px;
     font-weight: 400;
     color: #dddddd; }
-    #site-aside .site-footer h3 {
+    #site-aside .side-footer h3 {
       font-size: 16px;
       font-weight: 600;
       margin-bottom: 20px; }
-    #site-aside .site-footer a {
+    #site-aside .side-footer a {
       color: #dddddd; }
-    #site-aside .site-footer span {
+    #site-aside .side-footer span {
       display: block; }
-    #site-aside .site-footer ul {
+    #site-aside .side-footer ul {
       padding: 0;
       margin: 0; }
-      #site-aside .site-footer ul li {
+      #site-aside .side-footer ul li {
         padding: 0;
         margin: 0;
         list-style: none;
         width: 40px;
         height: 40px;
         margin-left: 10px; }
-        #site-aside .site-footer ul li a {
+        #site-aside .side-footer ul li a {
           width: 40px;
           height: 40px;
           color: #dddddd;
@@ -7526,7 +7526,7 @@ h1, h2, h3, h4, h5,
           -ms-border-radius: 50%;
           border-radius: 50%;
           background: #f46665; }
-          #site-aside .site-footer ul li a:hover, #site-aside .site-footer ul li a:active, #site-aside .site-footer ul li a:focus {
+          #site-aside .side-footer ul li a:hover, #site-aside .side-footer ul li a:active, #site-aside .side-footer ul li a:focus {
             text-decoration: none;
             outline: none;
             color: #000000;
@@ -8735,14 +8735,14 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
-.side-footer {
+.site-footer {
   padding: 2em 0;
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
   color: rgba(205, 205, 205, 0.5);
   position: relative; }
-  .side-footer:before {
+  .site-footer:before {
     position: absolute;
     content: "";
     background: rgba(0, 0, 0, 0);
@@ -8750,13 +8750,13 @@ textarea.form-control {
     left: 0;
     right: 0;
     bottom: 0; }
-  .side-footer .footer-heading {
+  .site-footer .footer-heading {
     font-size: 20px; }
-  .side-footer a {
+  .site-footer a {
     color: rgba(255, 255, 255, 0.3); }
-    .side-footer a:hover {
+    .site-footer a:hover {
       color: #fff; }
-  .side-footer ul li {
+  .site-footer ul li {
     margin-bottom: 10px; }
 
 .designer-link a {
