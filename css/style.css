@@ -7805,7 +7805,7 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .photography-entry .overlay {
-        opacity: .3; } }
+        opacity: .5; } }
   .photography-entry .text {
     opacity: 0;
     -moz-transition: all 0.3s ease;
@@ -8737,7 +8737,7 @@ textarea.form-control {
 
 .site-blocks-cover {
   background-size: cover;
-  background-color: rgba(239, 94, 52, 1);
+  background-color: black;
   color: rgba(0, 0, 0, 0.8); }
 .site-blocks-cover:before {
   color: rgba(0, 0, 0, 0.8); }
