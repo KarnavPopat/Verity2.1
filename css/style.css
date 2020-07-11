@@ -60,7 +60,7 @@ html {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 ::-webkit-scrollbar-track {
-  background-color: #dddddd;
+  background-color: black;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 ::selection {
@@ -125,9 +125,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #bf9b30;
   text-align: left;
-  background-color: #fff; }
+  background-color: #101010 !important; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -205,12 +205,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #78d5ef;
+  color: #bf9b30;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #34c0e7;
+    color: #;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -7805,7 +7805,7 @@ h1, h2, h3, h4, h5,
     transition: all 0.3s ease; }
     @media (max-width: 767.98px) {
       .photography-entry .overlay {
-        opacity: .5; } }
+        opacity: .3; } }
   .photography-entry .text {
     opacity: 0;
     -moz-transition: all 0.3s ease;
@@ -8844,4 +8844,12 @@ textarea.form-control {
 
 .to-14 {
   font-size: 13px; 
+}
+
+.hc {
+  color: #deb12a !important;
+}
+
+.tc {
+  color: #eeeeee !important;
 }
