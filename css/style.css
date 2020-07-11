@@ -7853,6 +7853,17 @@ h1, h2, h3, h4, h5,
         font-size: 16px;
         color: #bf9b30 }
 
+.staff-profile {
+  margin-bottom: 60px;
+  display: inline-block; }
+  .staff-profile .img {
+    height: calc(50vh);
+    width: calc(50vh); }
+  @media (max-width: 767.98px) {
+   .staff-profile .img {
+      height: calc(50vh);
+      width: calc(50vh); } }
+
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
@@ -8781,6 +8792,47 @@ textarea.form-control {
     font-size: 16px;
     line-height: 1.5; }
 
+.site-blocks-cover-staff {
+  background-size: cover;
+  background-color: black;
+  color: rgba(0, 0, 0, 0.8); }
+.site-blocks-cover-staff:before {
+  color: rgba(0, 0, 0, 0.8); }
+  .site-blocks-cover-staff.overlay {
+    position: relative; }
+    .site-blocks-cover-staff.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0; }
+  .site-blocks-cover-staff, .site-blocks-cover-staff .row {
+    min-height: 200px;
+    height: calc(40vh); }
+  .site-blocks-cover-staff.inner-page, .site-blocks-cover-staff.inner-page .row {
+    min-height: 200px;
+    height: calc(20vh); }
+  .site-blocks-cover-staff .sub-text {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: .2em; }
+  .site-blocks-cover-staff h1 {
+    color: #fff;
+    font-size: 3rem; }
+    @media (min-width: 768px) {
+      .site-blocks-cover-staff h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 1.2; } }
+  .site-blocks-cover-staff p {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5; }
+  .site-blocks-cover-staff .intro-text {
+    font-size: 16px;
+    line-height: 1.5; }
+
 .site-footer {
   padding: 2em 0;
   background-size: cover;
@@ -8857,4 +8909,8 @@ textarea.form-control {
 
 .tc {
   color: #eeeeee !important;
+}
+
+.icon-folder-o::before {
+    content: "\f114";
 }
