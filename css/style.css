@@ -8563,6 +8563,15 @@ textarea.form-control {
     opacity: .6;
     background: #bf9b30;
     z-index: -1; }
+    .subs-wrap .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #555555;
+    z-index: -1; }
   .subs-wrap h3 {
     color: #fff; }
 
@@ -8913,4 +8922,17 @@ textarea.form-control {
 
 .icon-folder-o::before {
     content: "\f114";
+}
+
+input[type=text] { 
+  width: 30%; 
+  -webkit-transition: width 0.15s ease-in-out; 
+  transition: width 0.15s ease-in-out; 
+} 
+/*Changes width to 100% on focus*/
+input[type=text]:focus { 
+  width: 70%; 
+}
+.search-head {
+  display: none;
 }
