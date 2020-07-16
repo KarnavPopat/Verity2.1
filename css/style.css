@@ -8931,7 +8931,7 @@ input[type=text] {
 } 
 /*Changes width to 100% on focus*/
 input[type=text]:focus { 
-  width: 30%; 
+  width: 100%; 
 }
 .search-head {
   display: none;
