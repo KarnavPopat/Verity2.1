@@ -8925,13 +8925,13 @@ textarea.form-control {
 }
 
 input[type=text] { 
-  width: 30%; 
+  width: 70%; 
   -webkit-transition: width 0.15s ease-in-out; 
   transition: width 0.15s ease-in-out; 
 } 
 /*Changes width to 100% on focus*/
 input[type=text]:focus { 
-  width: 70%; 
+  width: 30%; 
 }
 .search-head {
   display: none;
