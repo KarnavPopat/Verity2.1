@@ -190,10 +190,8 @@
       	$("#sidebar").load("sidebar.html"); 
     });
 
-  $(function() {
-      	$("#popart").load("popart.html"); 
-    });
-
+  $("#popart").load("popart.html"); 
+  
   $(function() {
       	$("#footer").load("footer.html"); 
     });
