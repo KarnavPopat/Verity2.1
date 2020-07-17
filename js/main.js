@@ -184,19 +184,17 @@
     fixedContentPos: false
   });
 
-  $(function() {
-  	var elems = $(".randomize");
-		if (elems.length) {
-  			var keep1 = Math.floor(Math.random() * elems.length);
-  			var keep2 = Math.floor(Math.random() * elems.length);
-  			var keep3 = Math.floor(Math.random() * elems.length);
-  			for (var i = 0; i < elems.length; ++i) {
-    			if (i !== keep1 && i !== keep2 && i !== keep3) {
-      				$(elems[i]).hide();
- 		   		}
-  			}
-		}
-	});
+  var elems = $(".randomize");
+	if (elems.length) {
+  		var keep1 = Math.floor(Math.random() * elems.length);
+  		var keep2 = Math.floor(Math.random() * elems.length);
+  		var keep3 = Math.floor(Math.random() * elems.length);
+  		for (var i = 0; i < elems.length; ++i) {
+    		if (i !== keep1 && i !== keep2 && i !== keep3) {
+      			$(elems[i]).hide();
+ 		   }
+  		}
+	}
 
   $(function() {
       	$("#sidebar").load("sidebar.html"); 
