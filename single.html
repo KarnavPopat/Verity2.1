@@ -214,6 +214,19 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+  	var elems = $(".randomize");
+	if (elems.length) {
+  		var keep1 = Math.floor(Math.random() * elems.length);
+  		var keep2 = Math.floor(Math.random() * elems.length);
+  		var keep3 = Math.floor(Math.random() * elems.length);
+  		for (var i = 0; i < elems.length; ++i) {
+    		if (i !== keep1 && i !== keep2 && i !== keep3) {
+      			$(elems[i]).hide();
+ 		   }
+  		}
+	}
+  </script>
     
   </body>
 </html>
