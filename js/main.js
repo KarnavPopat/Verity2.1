@@ -190,20 +190,9 @@
       	$("#sidebar").load("sidebar.html"); 
     });
 
-  $("#popart").load("popart.html"); 
-  
   $(function() {
-      	$("#footer").load("footer.html"); 
-    });
-
-	
-	$(".scroller").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scrollered").offset().top},
-        'slow');
-	});
-
-	var elems = $(".randomize");
+      	$("#popart").load("popart.html");
+      	var elems = $(".randomize");
 	if (elems.length) {
   		var keep1 = Math.floor(Math.random() * elems.length);
   		var keep2 = Math.floor(Math.random() * elems.length);
@@ -214,6 +203,18 @@
  		   }
   		}
 	}
+    });
+
+  $(function() {
+      	$("#footer").load("footer.html"); 
+    });
+
+	
+	$(".scroller").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scrollered").offset().top},
+        'slow');
+	});
 
 
 })(jQuery);
