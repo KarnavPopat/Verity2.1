@@ -1,0 +1,61 @@
+1. Removed colorlib template structure and artifacts
+2. Changed sidebar structure
+3. Sidebar background
+4. Responsive sidebar links
+5. sidebar toggle colour
+6. sidebar footer bugfix
+7. added follow icons, removed follow text
+8. changed subscribe text, added email input field
+9. added modularity for sidebar
+10. changed landing page background
+11. landing text bugfix
+12. landing text font
+13. changed popular article structure
+14. added modularity
+15. changed department structure
+16. added responsive overlays
+17. added separate collab section
+18. changed collab structure
+19. changed footer structure
+20. switched back to dark mode
+21. added email icons
+22. made ui/ux changes, scroller, selection
+23. switched to mobile first
+24. changed to varied tab names
+25. changed favicon
+26. added visuals to about page
+27. added breadcrumb header
+28. added social icons
+29. changed gateway page structure
+30. new grid
+31. added modular grid to index page
+32. breadcrumbs, header
+33. added our team page
+34. added randomized avatars
+35. breadcrumbs, header
+36. social icons
+37. technical team
+38. added department pages
+39. restructured for linking
+40. restructured article entries
+41. breadcrumbs, header
+42. added writer links
+43. added writer pages
+44. breadcrumbs, header
+45. added randomized avatar
+46. writer descriptions
+47. added auto generating writer articles
+48. added auto generation for department articles
+49. added popular articles
+50. added linkage
+51. script to auto accept subscriber emails
+52. script to auto send welcome mail
+53. expanded popular article pool to one for each dep
+54. added randomization for popular articles
+55. added department page searchbars
+56. added writer page searchbars
+
+to do
+2. social icons to writer pages
+3. dropdown menu sidebar
+4. article pages
