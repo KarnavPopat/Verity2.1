@@ -187,11 +187,11 @@
   
 
   $(function() {
-      	$("#sidebar").load("sidebar.html"); 
+      	$("#sidebar").load("js/fxdxdy1.html"); 
     });
 
   $(function() {
-      	$("#popart").load("popart.html");
+      	$("#popart").load("js/fxdxdy3.html");
       	var elems = $(".randomize");
 	if (elems.length) {
   		var keep1 = Math.floor(Math.random() * elems.length);
@@ -206,7 +206,7 @@
     });
 
   $(function() {
-      	$("#footer").load("footer.html"); 
+      	$("#footer").load("js/fxdxdy2.html"); 
     });
 
 	
