@@ -8884,6 +8884,17 @@ textarea.form-control {
   transition: .5s ease;
 }
 
+.overlay-pd {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .6;
+    background: rgba(255, 255, 255, 0.2) !important;
+    z-index: -1;
+}
+
 .cont:hover .overlay {
   bottom: 0;
   height: 100%;
