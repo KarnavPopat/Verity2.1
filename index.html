@@ -47,14 +47,21 @@
 
 	    	<!-- Landing Page -->
     		<div>
-    			<div class="site-blocks-cover overlay" style="background-image: url(images/bg.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        			<div class="container">
-          				<div class="row align-items-center justify-content-center">
-            				<div class="col-md-7 text-center" data-aos="fade">
-              					<span class="caption mb-3">Welcome to</span>
-              					<h1 class="mb-4" style="color: #deb12a; font-family: 'Fondamento', cursive;">Verity Today</h1>
-            				</div>
-          				</div>
+    			<div class="site-blocks-cover" style="background-image: url(images/bg.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    				<div class="overlay" style="width: 100%; height: 100%;">
+    					
+    					<!-- text overlay -->
+    					<div class="container" style="position: absolute; z-index: 10000;">
+          					<div class="row align-items-center justify-content-center">
+            					<div class="col-md-7 text-center" data-aos="fade">
+              						<span class="caption mb-3">Welcome to</span>
+              						<h1 class="mb-4" style="color: #deb12a; font-family: 'Fondamento', cursive;">Verity Today</h1>
+            					</div>
+          					</div>
+        				</div>
+        				
+        				<!-- particle overlay -->
+        				<div id="particles-js" style="width: 100%; height: 100%;"></div>
         			</div>
       			</div>
     		</div>
@@ -157,7 +164,9 @@
 			<section class="ftco-section">
 	    			<div class="row no-gutters align-items-center">
 	    				<div class="sidebar-box subs-wrap img px-4 py-5" style="background-image: url(images/bg_1.jpg);">
-							<div class="overlay"></div>
+							<div class="overlay">
+								<!-- <div id="particles-js" style="width: 100%; height: 100%;"></div> -->
+							</div>
 									
 							<h3 class="mb-4 sidebar-heading">Newsletter</h3>	
 							<p class="mb-4">Subscribe to get regular updates on our publications, activities and more!</p>
@@ -348,8 +357,9 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
+  <script src="./js/particles.min.js"></script>
+  <script src="./js/app.js"></script>
   <script src="js/main.js"></script>
     
   </body>
