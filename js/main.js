@@ -3,6 +3,14 @@
  	easing: 'slide'
  });
 
+ window.onscroll = function() {scrollProgress()};
+function scrollProgress() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progress").style.width = scrolled + "%";
+} 
+
 (function($) {
 
 	"use strict";
@@ -41,6 +49,7 @@
    $.Scrollax();
 
 
+   // Open the menu on click
    var burgerMenu = function() {
 
 		$('.js-site-nav-toggle').on('click', function(event){
@@ -58,7 +67,7 @@
 	};
 	burgerMenu();
 
-	// Click outside of offcanvass
+	// Click outside of offcanvas
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
@@ -87,35 +96,7 @@
 	};
 	mobileMenuOutsideClick();
 
-	var carousel = function() {
-		$('.home-slider').owlCarousel({
-	    loop:true,
-	    autoplay: true,
-	    margin:0,
-	    animateOut: 'fadeOut',
-	    animateIn: 'fadeIn',
-	    nav:false,
-	    autoplayHoverPause: false,
-	    items: 1,
-	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
-	    responsive:{
-	      0:{
-	        items:1
-	      },
-	      600:{
-	        items:1
-	      },
-	      1000:{
-	        items:1
-	      }
-	    }
-		});
-
-	};
-	carousel();
-
-	
-
+	// fade in/out animation
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
@@ -152,8 +133,42 @@
 	};
 	contentWayPoint();
 
+	// read more button
+	$(".scroller").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".scrollered").offset().top},
+        'slow');
+	});
 
-	// magnific popup
+	// artefact to implement a carousel
+	var carousel = function() {
+		$('.home-slider').owlCarousel({
+	    loop:true,
+	    autoplay: true,
+	    margin:0,
+	    animateOut: 'fadeOut',
+	    animateIn: 'fadeIn',
+	    nav:false,
+	    autoplayHoverPause: false,
+	    items: 1,
+	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
+	    responsive:{
+	      0:{
+	        items:1
+	      },
+	      600:{
+	        items:1
+	      },
+	      1000:{
+	        items:1
+	      }
+	    }
+		});
+
+	};
+	carousel();
+
+	// artefact for magnific popup
 	$('.image-popup').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
@@ -174,6 +189,7 @@
     }
   });
 
+  // artefact for video player
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
@@ -184,12 +200,13 @@
     fixedContentPos: false
   });
 
-  
 
+  // load the sidebar
   $(function() {
       	$("#sidebar").load("js/fxdxdy1.html"); 
     });
 
+  // load three random popular articles
   $(function() {
       	$("#popart").load("js/fxdxdy3.html");
       	var elems = $(".randomize");
@@ -205,20 +222,16 @@
 	}
     });
 
+  // load the footer
   $(function() {
       	$("#footer").load("js/fxdxdy2.html"); 
     });
 
-	
-	$(".scroller").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scrollered").offset().top},
-        'slow');
-	});
-
 
 })(jQuery);
 
+
+// search for an article
 function search_article() { 
 	let input = document.getElementById('searchbar').value 
 	input=input.toLowerCase(); 

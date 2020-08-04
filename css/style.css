@@ -8947,3 +8947,25 @@ input[type=text]:focus {
 .search-head {
   display: none;
 }
+
+
+ /* Style the header: fixed position (always stay at the top) */
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #101010;
+}
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 4px;
+  background: #101010;
+}
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 4px;
+  background: #bf9b30;
+  width: 0%;
+}
