@@ -8193,14 +8193,7 @@ h1, h2, h3, h4, h5,
 
 .form-control {
   height: 52px !important;
-  background: #fff !important;
-  color: #000000 !important;
-  font-size: 18px;
-  border-radius: 0px;
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
-  .form-control:focus, .form-control:active {
-    border-color: #000000; }
+}
 
 textarea.form-control {
   height: inherit !important; }
@@ -8899,7 +8892,6 @@ textarea.form-control {
   bottom: 0;
   height: 100%;
 }
-
 .text-overlay {
   color: white;
   font-size: 15px;
@@ -8913,11 +8905,9 @@ textarea.form-control {
   width: 75%;
 
 }
-
 .to-11 {
   font-size: 10px; 
 }
-
 .to-14 {
   font-size: 13px; 
 }
@@ -8926,7 +8916,6 @@ textarea.form-control {
   font-family: 'PT Sans Caption', sans-serif !important;
   color: #deb12a !important;
 }
-
 .tc {
   color: #eeeeee !important;
 }
@@ -8936,7 +8925,7 @@ textarea.form-control {
 }
 
 input[type=text] { 
-  width: 70%; 
+  width: 100%; 
   -webkit-transition: width 0.15s ease-in-out; 
   transition: width 0.15s ease-in-out; 
 } 
@@ -8999,7 +8988,7 @@ input[type=text]:focus {
   bottom: 0;
   -webkit-animation-delay: -1.0s;
   animation-delay: -1.0s;
-  color: #bf9b30;
+  background-color: #bf9b30;
 }
 
 @-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
