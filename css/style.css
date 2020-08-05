@@ -515,9 +515,9 @@ pre {
     color: inherit;
     word-break: normal; }
 
-.pre-scrollable {
+/* .pre-scrollable {
   max-height: 340px;
-  overflow-y: scroll; }
+  overflow-y: scroll; } */
 
 .container {
   width: 100%;
