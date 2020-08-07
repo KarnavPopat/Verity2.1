@@ -68,7 +68,7 @@ function scrollProgress() {
 	burgerMenu();
 
 	// Click outside of offcanvas
-	var mobileMenuOutsideClick = function() {
+	/*var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
 	    var container = $("#site-aside, .js-site-nav-toggle");
@@ -94,10 +94,10 @@ function scrollProgress() {
 		});
 
 	};
-	mobileMenuOutsideClick();
+	mobileMenuOutsideClick(); */
 
 	// fade in/out animation
-	var contentWayPoint = function() {
+	/*var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
 
@@ -131,7 +131,7 @@ function scrollProgress() {
 
 		} , { offset: '95%' } );
 	};
-	contentWayPoint();
+	contentWayPoint(); */
 
 	// read more button
 	$(".scroller").click(function() {
