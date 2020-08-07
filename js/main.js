@@ -133,14 +133,7 @@ function scrollProgress() {
 	};
 	contentWayPoint(); */
 
-	// read more button
-	/*$(".scroller").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".scrollered").offset().top},
-        'slow');
-	});*/
-
-	// artefact to implement a carousel
+	/* artefact to implement a carousel
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
 	    loop:true,
@@ -166,9 +159,9 @@ function scrollProgress() {
 		});
 
 	};
-	carousel();
+	carousel(); */
 
-	// artefact for magnific popup
+	/* artefact for magnific popup
 	$('.image-popup').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
@@ -187,9 +180,9 @@ function scrollProgress() {
       enabled: true,
       duration: 300 // don't foget to change the duration also in CSS
     }
-  });
+  }); */
 
-  // artefact for video player
+  /* artefact for video player
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
@@ -198,7 +191,7 @@ function scrollProgress() {
     preloader: false,
 
     fixedContentPos: false
-  });
+  }); */
 
 
   // load the sidebar
