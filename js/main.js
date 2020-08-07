@@ -134,11 +134,11 @@ function scrollProgress() {
 	contentWayPoint(); */
 
 	// read more button
-	$(".scroller").click(function() {
+	/*$(".scroller").click(function() {
     $('html,body').animate({
         scrollTop: $(".scrollered").offset().top},
         'slow');
-	});
+	});*/
 
 	// artefact to implement a carousel
 	var carousel = function() {
