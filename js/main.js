@@ -17,7 +17,7 @@ window.onscroll = function() {
 
 	"use strict";
 
-	/*$(window).stellar ({
+	$(window).stellar ({
     responsive: true,
     parallaxBackgrounds: true,
     parallaxElements: true,
@@ -26,7 +26,7 @@ window.onscroll = function() {
     scrollProperty: 'scroll'
     });
 
-	var fullHeight = function() {
+	/*var fullHeight = function() {
 		$('.js-fullheight').css('height', $(window).height());
 		$(window).resize(function() {
 			$('.js-fullheight').css('height', $(window).height());
