@@ -1,8 +1,8 @@
- /*AOS.init({
- 	duration: 800,
- 	easing: 'slide'
- });
-*/
+AOS.init({
+	duration: 800,
+	easing: 'slide'
+});
+
 window.onscroll = function() {scrollProgress()};
 function scrollProgress() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
