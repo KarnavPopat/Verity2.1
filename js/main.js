@@ -1,7 +1,7 @@
-/*AOS.init({
+AOS.init({
 	duration: 800,
 	easing: "slide"
-});*/
+});
 
 function scrollProgress() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -19,11 +19,11 @@ window.onscroll = function() {
 
 	$(window).stellar ({
 		horizontalScrolling: false,
-    /*responsive: true,*/
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
+    	/*responsive: true,*/
+    	parallaxBackgrounds: true,
+    	parallaxElements: true,
+    	hideDistantElements: false,
+    	scrollProperty: 'scroll'
     });
 
 	var fullHeight = function() {
