@@ -19,8 +19,8 @@ window.onscroll = function() {
 
 	$(window).stellar ({
 		horizontalScrolling: false,
-    /*responsive: true,
-    parallaxBackgrounds: true,
+    	responsive: true,
+    /*parallaxBackgrounds: true,
     parallaxElements: true,
     hideDistantElements: false,
     scrollProperty: 'scroll'*/
