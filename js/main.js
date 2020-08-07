@@ -23,7 +23,7 @@ window.onscroll = function() {
     parallaxElements: true,
     horizontalScrolling: false,
     hideDistantElements: false,
-    scrollProperty: 'scroll'
+    /*scrollProperty: 'scroll'*/
     });
 
 	/*var fullHeight = function() {
