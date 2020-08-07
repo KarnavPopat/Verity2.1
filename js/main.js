@@ -1,4 +1,4 @@
- AOS.init({
+ /*AOS.init({
  	duration: 800,
  	easing: 'slide'
  });
@@ -97,7 +97,7 @@ function scrollProgress() {
 	mobileMenuOutsideClick(); */
 
 	// fade in/out animation
-	var contentWayPoint = function() {
+/*	var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
 
@@ -254,3 +254,4 @@ function search_article() {
 		y.style.display="inline-block !important";
 	}
 } 
+*/
