@@ -18,21 +18,21 @@ window.onscroll = function() {
 	"use strict";
 
 	$(window).stellar ({
-    responsive: true,
+		horizontalScrolling: false,
+    /*responsive: true,
     parallaxBackgrounds: true,
     parallaxElements: true,
-    horizontalScrolling: false,
     hideDistantElements: false,
-    /*scrollProperty: 'scroll'*/
+    scrollProperty: 'scroll'*/
     });
 
-	/*var fullHeight = function() {
+	var fullHeight = function() {
 		$('.js-fullheight').css('height', $(window).height());
 		$(window).resize(function() {
 			$('.js-fullheight').css('height', $(window).height());
 		});
 	};
-	fullHeight();*/
+	fullHeight();
 
 	// loader
 	var loader = function() {
@@ -45,7 +45,7 @@ window.onscroll = function() {
 	loader();
 
 	// Scrollax
-   /*$.Scrollax();
+   $.Scrollax();
 
    // Open the menu on click
    var burgerMenu = function() {
@@ -63,7 +63,7 @@ window.onscroll = function() {
 			}
 		});
 	};
-	burgerMenu();*/
+	burgerMenu();
 
 	// Click outside of offcanvas
 	var mobileMenuOutsideClick = function() {
