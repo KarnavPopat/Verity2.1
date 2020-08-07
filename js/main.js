@@ -3,16 +3,6 @@ AOS.init({
 	easing: "slide"
 });
 
-function scrollProgress() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("progress").style.width = scrolled + "%";
-} 
-window.onscroll = function() {
-	scrollProgress()
-};
-
 (function($) {
 
 	"use strict";
@@ -193,6 +183,16 @@ window.onscroll = function() {
 
 })(jQuery);
 
+// display progress towards end of article
+function scrollProgress() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progress").style.width = scrolled + "%";
+} 
+window.onscroll = function() {
+	scrollProgress()
+};
 
 // search for an article
 function search_article() { 
