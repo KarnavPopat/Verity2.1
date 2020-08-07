@@ -34,7 +34,7 @@ function scrollProgress() {
 
 	};
 	fullHeight();
-
+*/
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
@@ -44,7 +44,7 @@ function scrollProgress() {
 		}, 1);
 	};
 	loader();
-
+/*
 	// Scrollax
    $.Scrollax();
 
@@ -94,10 +94,10 @@ function scrollProgress() {
 		});
 
 	};
-	mobileMenuOutsideClick(); */
+	mobileMenuOutsideClick();
 
 	// fade in/out animation
-/*	var contentWayPoint = function() {
+	var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
 
