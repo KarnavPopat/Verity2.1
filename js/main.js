@@ -10,7 +10,7 @@ function scrollProgress() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("progress").style.width = scrolled + "%";
 } 
-
+*/
 (function($) {
 
 	"use strict";
@@ -34,7 +34,7 @@ function scrollProgress() {
 
 	};
 	fullHeight();
-*/
+
 	// loader
 	var loader = function() {
 		setTimeout(function() { 
