@@ -68,7 +68,7 @@ function scrollProgress() {
 	burgerMenu();
 
 	// Click outside of offcanvas
-	/* var mobileMenuOutsideClick = function() {
+	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
 	    var container = $("#site-aside, .js-site-nav-toggle");
