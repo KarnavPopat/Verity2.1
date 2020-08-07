@@ -32,7 +32,7 @@ window.onscroll = function() {
 			$('.js-fullheight').css('height', $(window).height());
 		});
 	};
-	fullHeight();
+	fullHeight();*/
 
 	// loader
 	var loader = function() {
@@ -45,7 +45,7 @@ window.onscroll = function() {
 	loader();
 
 	// Scrollax
-   $.Scrollax();
+   /*$.Scrollax();
 
    // Open the menu on click
    var burgerMenu = function() {
