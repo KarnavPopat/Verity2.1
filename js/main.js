@@ -2,15 +2,15 @@
  	duration: 800,
  	easing: 'slide'
  });
-
- window.onscroll = function() {scrollProgress()};
+*/
+window.onscroll = function() {scrollProgress()};
 function scrollProgress() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("progress").style.width = scrolled + "%";
 } 
-*/
+
 (function($) {
 
 	"use strict";
@@ -44,7 +44,7 @@ function scrollProgress() {
 		}, 1);
 	};
 	loader();
-/*
+
 	// Scrollax
    $.Scrollax();
 
@@ -254,4 +254,3 @@ function search_article() {
 		y.style.display="inline-block !important";
 	}
 } 
-*/
