@@ -84,6 +84,23 @@ AOS.init({
 	};
 	mobileMenuOutsideClick();
 
+	var dropDown = function () {
+
+		$('.dropbtn').on('click', function(event) {
+			event.preventDefault();
+			var $this = $(this);
+
+			if ($('.dropdown-content').hasClass('show')) {
+				$this.removeClass('show');
+				$('.dropdown-content').removeClass('show');	
+			} else {
+				$this.addClass('show');
+				$('.dropdown-content').addClass('show');	
+			}
+		});
+	}
+	dropDown();
+
 	// fade in/out animation
 	var contentWayPoint = function() {
 		var i = 0;

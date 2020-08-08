@@ -7395,6 +7395,9 @@ h1, h2, h3, h4, h5,
   overflow-y: hidden;
   z-index: 1001;
   background: black;
+  opacity: 90%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -9007,4 +9010,80 @@ input[type=text]:focus {
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+
+ /* Dropdown Button */
+.dropbtn {
+  display: inline;
+  background-color: inherit;
+  border: none;
+  font-weight: bold;
+}
+  .dropdown .dropdown-content ul li a {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .dropdown .dropdown-content ul li a:after {
+          content: "";
+          position: absolute;
+          height: 1px;
+          bottom: 7px;
+          left: 0;
+          right: 0;
+          background-color: #bf9b30;
+          visibility: hidden;
+          -webkit-transform: scaleX(0);
+          -moz-transform: scaleX(0);
+          -ms-transform: scaleX(0);
+          -o-transform: scaleX(0);
+          transform: scaleX(0);
+          -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+        .dropdown .dropdown-content ul li a:hover {
+          text-decoration: none;
+          color: #bf9b30; }
+          .dropdown .dropdown-content ul li a:hover:after {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            -moz-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            transform: scaleX(1); }
+      .dropdown .dropdown-content ul li.site-active a {
+        color: #bf9b30; }
+        .dropdown .dropdown-content ul li.site-active a:after {
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          -moz-transform: scaleX(1);
+          -ms-transform: scaleX(1);
+          -o-transform: scaleX(1);
+          transform: scaleX(1); }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  margin: auto;
+  display: none;
+}
+
+/* Show the dropdown menu on click */
+.show {
+  display: block;
+  margin: auto;
+  text-align: center;
 }
