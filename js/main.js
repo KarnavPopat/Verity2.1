@@ -266,3 +266,5 @@ animateValue("articles", 0, 125, 1800);
 /*window.onbeforeunload = function(){
   return 'Are you sure you want to leave? This is a test message.';
 };*/
+
+document.cookie = "username = Testy McTestyFace";
