@@ -267,4 +267,29 @@ animateValue("articles", 0, 125, 1800);
   return 'Are you sure you want to leave? This is a test message.';
 };*/
 
-document.cookie = "username = Testy McTestyFace";
+function setCookie(name) {
+	document.cookie = "check = " + name + "; path = /";
+	console.log(document.cookie);
+}
+
+function getCookie(name) {
+	var cookie = document.cookie.split(';');
+
+    for(var i = 0; i < cookie.length; i++) {
+        var cookiePair = cookie[i].split("=");
+
+        if(name == cookiePair[0].trim()) {
+            return cookiePair[1];
+        }
+    }
+}
+
+document.onreadystatechange = function() { 
+    if (document.readyState !== "complete") { 
+        document.querySelector(".twitter-tweet").style.visibility = "hidden"; 
+        document.querySelector("#loaderph").style.visibility = "visible"; 
+    } else { 
+        document.querySelector("#loaderph").style.display = "none"; 
+        document.querySelector(".twitter-tweet").style.visibility = "visible"; 
+    } 
+}; 
