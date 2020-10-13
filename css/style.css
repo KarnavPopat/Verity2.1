@@ -9219,3 +9219,34 @@ input[type=text]:focus {
     }
 }
 
+
+div#LoadingDiv{
+
+}
+div#LoadingDiv img#LoadingImage{
+    width:30%;
+    margin:0 auto;
+    display: block;
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.5;
+}
+div#LoadingDiv h1#loadingText{
+    border-style: none !important;
+    font-size: 40px;
+    display: block;
+    padding-bottom: 60px !important;
+    letter-spacing: 10px;
+    font-weight: 300;
+}
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
