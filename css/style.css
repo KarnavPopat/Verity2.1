@@ -62,6 +62,14 @@ html {
   background: transparent;
   color: #bf9b30;
 }
+
+.ftco-animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -86,20 +94,17 @@ html {
     opacity: 1;
   }
 }
-@-ms-keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+
+.fadein { 
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
-@-o-keyframes fadein;
 
 ::-webkit-scrollbar {
   width: 8px;
   background-color: black;
 }
+
 body {
   -webkit-animation: fadein 2s;
   -moz-animation: fadein 2s;
