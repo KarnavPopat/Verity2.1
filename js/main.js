@@ -103,7 +103,7 @@ AOS.init({
 	dropDown();
 
 	// fade in/out animation
-	var contentWayPoint = function() {
+	/* var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
 
@@ -137,7 +137,7 @@ AOS.init({
 
 		} , { offset: '95%' } );
 	};
-	contentWayPoint();
+	contentWayPoint(); */
 
 	/* artefact for magnific popup
 	$('.image-popup').magnificPopup({
