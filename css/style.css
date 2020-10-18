@@ -96,8 +96,8 @@ html {
 }
 
 .fadein { 
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
+  -webkit-animation-name: fadein;
+  animation-name: fadein;
 }
 
 ::-webkit-scrollbar {
