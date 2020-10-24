@@ -3880,6 +3880,10 @@ input[type="button"].btn-block {
   background-color: #e9ecef;
   border-radius: 0.25rem; }
 
+.final-link {
+  color: #dec79b !important;
+}
+
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem; }
   .breadcrumb-item + .breadcrumb-item::before {
@@ -8140,14 +8144,13 @@ h1, h2, h3, h4, h5,
   margin-bottom: 20px;
   z-index: 99; }
   .ftco-bread .breadcrumbs span {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #dec79b;
     color: black; }
     .ftco-bread .breadcrumbs span a {
       color: #bfbfbf; }
 
 .ftco-bread .bread {
-  font-weight: 700;
-  color: #000000; }
+  font-weight: 700; }
 
 .blog-entry {
   margin-bottom: 6em; }
@@ -8358,6 +8361,9 @@ textarea.form-control {
 
 .bg-light {
   background: #f8f9fa !important; }
+
+.bg-header {
+  background: #18181e !important; }
 
 .bg-primary {
   background: #f67e7d !important; }

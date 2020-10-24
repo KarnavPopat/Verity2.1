@@ -201,17 +201,6 @@ AOS.init({
 
 })(jQuery);
 
-// display progress towards end of article
-function scrollProgress() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("progress").style.width = scrolled + "%";
-} 
-window.onscroll = function() {
-	scrollProgress()
-};
-
 // search for an article
 function search_article() { 
 	let input = document.getElementById('searchbar').value 
@@ -262,13 +251,3 @@ function getCookie(name) {
         }
     }
 }
-
-document.onreadystatechange = function() { 
-    if (document.readyState !== "complete") { 
-        document.querySelector(".twitter-tweet").style.visibility = "hidden"; 
-        document.querySelector("#loaderph").style.visibility = "visible"; 
-    } else { 
-        document.querySelector("#loaderph").style.display = "none"; 
-        document.querySelector(".twitter-tweet").style.visibility = "visible"; 
-    } 
-}; 
